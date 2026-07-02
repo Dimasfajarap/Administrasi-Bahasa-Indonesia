@@ -7,7 +7,7 @@ st.set_page_config(page_title="Rapor & Jurnal Guru - Pak Dimas", layout="wide")
 
 # Judul Aplikasi
 st.title("📝 Aplikasi Manajemen Kelas & Penilaian Kurikulum Merdeka")
-st.subheader("Oleh: Dimas Fajar Ariyanto Putra, S.Pd. | SMA Negeri 13 Banjarmasin")
+st.subheader("Oleh: Dimas Fajar Ariyanto Putra, M.Pd. | SMA Negeri 13 Banjarmasin")
 st.markdown("---")
 
 # Inisialisasi Data Menggunakan Session State (Agar data tidak hilang saat aplikasi di-refresh di sesi yang sama)
