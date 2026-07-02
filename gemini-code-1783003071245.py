@@ -37,7 +37,7 @@ if menu == "👥 Data Murid":
     with st.form("form_murid", clear_on_submit=True):
         nisn = st.text_input("NISN / NIS")
         nama = st.text_input("Nama Lengkap Murid")
-        kelas = st.selectbox("Kelas", ["X-1", "X-2", "XI-Fase F1", "XI-Fase F2", "XII-1", "XII-2"])
+        kelas = st.selectbox("Kelas", ["XI-7", "XI-8", "XII-4", "XII-5", "XII-6", "XII-7"])
         submit_murid = st.form_submit_button("Simpan Data Murid")
         
         if submit_murid and nama and nisn:
